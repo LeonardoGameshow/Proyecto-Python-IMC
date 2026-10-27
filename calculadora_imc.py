@@ -1,4 +1,5 @@
 #Nombre del programa: calculadora de IMC
+# Repositorio en GitHub: https://github.com/LeonardoGameshow/Proyecto-Python-IMC
 
 print("=== CALCULADORA DE IMC ===")
 
@@ -15,6 +16,6 @@ estatura = float(input("Ingresa tu estatura: "))
 IMC = peso/(estatura)**2
 
 # Casting de calculo de IMC
-print(f"Hola {nombre_usuario} {apellido_paterno} {apellido_materno} con edad de {edad} años, tu indice de masa es: {IMC:.2f}")
+print(f"Hola {nombre_usuario.capitalize()} {apellido_paterno.capitalize()} {apellido_materno.capitalize()} con edad de {edad} años, tu indice de masa es: {IMC:.2f}")
 
 input("\nPresiona Enter para salir...")
