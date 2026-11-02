@@ -27,7 +27,8 @@ IMC = peso / (estatura ^ 2)
 1. Clona este repositorio o descarga el archivo `calculadora_imc.py`:
    git clone [https://github.com/LeonardoGameshow/Proyecto-Python-IMC.git](https://github.com/LeonardoGameshow/Proyecto-Python-IMC.git)
 
-Reflexión Personal Proyecto U-camp
+## Reflexión Personal Proyecto U-camp
+
 Durante el desarrollo de este proyecto, profundicé en la importancia de diseñar software robusto que no falle ante el comportamiento
 impredecible del usuario. Al enfrentar el reto de evitar que el programa colapsara con entradas erróneas, investigué y estructuré una forma más eficiente de
 validar la información utilizando bucles while, condicionales if y métodos nativos de manipulación de cadenas en Python (como .strip() y .isdigit()).
