@@ -4,7 +4,7 @@ Programa interactivo desarrollado en Python para calcular el Índice de Masa Cor
 
 ---
 
-## 📋 Descripción del Programa
+## Descripción del Programa
 
 La **Calculadora de IMC** recopila de forma segura el nombre completo, la edad, el peso y la estatura de un usuario. A partir de estos datos, procesa la información aplicando la fórmula estándar del Índice de Masa Corporal:
 
@@ -18,7 +18,7 @@ IMC = peso / (estatura ^ 2)
 
 ---
 
-## 🚀 Instrucciones de Ejecución
+## Instrucciones de Ejecución
 
 ### Requisitos previos
 - Tener instalado **Python 3.x** en tu sistema.
