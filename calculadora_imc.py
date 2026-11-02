@@ -4,7 +4,7 @@
 print("=== CALCULADORA DE IMC ===")
 print("Bienvenido al registro de usuarios\n")
 
-# --- Validaciones de Nombres y Apellidos ---
+# Validaciones de Nombres y Apellidos
 nombre_usuario = input("Ingresa tu nombre: ").strip()
 while nombre_usuario == "":
     print(" Error: Este campo no puede quedar vacío.")
@@ -21,7 +21,7 @@ while apellido_materno == "":
     apellido_materno = input("Ingresa tu apellido materno: ").strip()
 
 
-# --- Validación de Edad (Número entero positivo) ---
+# Validación de Edad (Número entero positivo)
 edad_input = input("Ingresa tu edad: ").strip()
 while edad_input == "" or not edad_input.isdigit() or int(edad_input) <= 0:
     if edad_input == "":
@@ -33,7 +33,7 @@ while edad_input == "" or not edad_input.isdigit() or int(edad_input) <= 0:
 edad = int(edad_input)
 
 
-# --- Validación de Peso (Número con o sin decimales) ---
+# Validación de Peso (Número con o sin decimales)
 peso_input = input("Ingresa tu peso en kg (ej. 70.5): ").strip()
 # .replace(".", "", 1) quita el punto decimal solo una vez para verificar si el resto son números
 while peso_input == "" or not peso_input.replace(".", "", 1).isdigit() or float(peso_input) <= 0:
@@ -46,7 +46,7 @@ while peso_input == "" or not peso_input.replace(".", "", 1).isdigit() or float(
 peso = float(peso_input)
 
 
-# --- Validación de Estatura (Número decimal en metros) ---
+# Validación de Estatura (Número decimal en metros)
 estatura_input = input("Ingresa tu estatura en metros (ej. 1.75): ").strip()
 while estatura_input == "" or not estatura_input.replace(".", "", 1).isdigit() or float(estatura_input) <= 0:
     if estatura_input == "":
@@ -58,7 +58,7 @@ while estatura_input == "" or not estatura_input.replace(".", "", 1).isdigit() o
 estatura = float(estatura_input)
 
 
-# --- Cálculo y despliegue del IMC ---
+# Cálculo y despliegue del IMC
 IMC = peso / (estatura ** 2)
 
 print("\n" + "="*40)
